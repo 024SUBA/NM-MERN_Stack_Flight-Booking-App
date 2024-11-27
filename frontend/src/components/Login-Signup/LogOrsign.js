@@ -48,7 +48,7 @@ export default function LogOrsign({ history }) {
                                     </ul>
                                 </div>
                                 <div className="form-input">
-                                    <h2>Enter Credentials</h2>
+                                    <h2>Enter your credentials!</h2>
                                     <form onSubmit={(e) => { submitData(e) }}>
                                         <div class="form-group">
                                             <input className="loginInfo" type="email" name="name" required onChange={e => handleChangeEvent(e, 'email')} />
@@ -56,7 +56,7 @@ export default function LogOrsign({ history }) {
                                         </div>
                                         <div class="form-group">
                                             <input className="loginInfo" type="password" name="password" required onChange={e => handleChangeEvent(e, 'password')} />
-                                            <label>password</label>
+                                            <label>Password</label>
                                         </div>
                                         <div class="myform-button">
                                             <button type="submit" className="myform-btn">Login</button>
@@ -64,7 +64,7 @@ export default function LogOrsign({ history }) {
                                         <div>
                                             <small className="form-text text-muted signup-text">Already a User?
                                             </small>
-                                            <span className="signUPtext"><a href="/#" onClick={(e) => getToSignUp(e)}>Sign-Up</a></span>
+                                            <span className="signUPtext"><a href="/#" onClick={(e) => getToSignUp(e)}>Sign-In</a></span>
                                         </div>
                                     </form>
                                 </div>

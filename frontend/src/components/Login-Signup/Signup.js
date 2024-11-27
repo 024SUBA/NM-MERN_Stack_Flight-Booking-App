@@ -48,7 +48,7 @@ export default function Signup({ history }) {
                         <div className="form-container-in" > </div>
                         <div className="row sgnUp " >
                             <div className="col-md-6 right-divider pdding" >
-                                <h3 className="lead-text mn-txt" > Join Us with Social </h3>
+                                <h3 className="lead-text mn-txt" > Login through your Social Media </h3>
                                 <div className="icon-soc-fb" >
                                     <FaFacebookF />
                                 </div>
@@ -70,7 +70,7 @@ export default function Signup({ history }) {
                                             />
                                         </div>
                                         <div class="form-group2" >
-                                            <label htmlFor="email" > Email - ID: </label>
+                                            <label htmlFor="email" > Email Id: </label>
                                             <input required id="email"
                                                 type="email"
                                                 className="form-control sgnUp"
@@ -79,7 +79,7 @@ export default function Signup({ history }) {
                                             />
                                         </div>
                                         <div class="form-group2" >
-                                            <label htmlFor="mob-number" > Mobile - No.: </label>
+                                            <label htmlFor="mob-number" > Mobile Number: </label>
                                             <input required id="mob-number"
                                                 type="text"
                                                 className="form-control sgnUp"

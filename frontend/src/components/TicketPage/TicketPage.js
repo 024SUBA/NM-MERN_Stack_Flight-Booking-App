@@ -19,8 +19,8 @@ export default function TicketPage({ history }) {
         let to = localStorage.getItem("destination")
         return (
             <div>
-                <p>From:  {from}</p>
-                <p>To:  {to}</p>
+                <p>from:  {from}</p>
+                <p>to:  {to}</p>
             </div>
         )
     }
@@ -63,7 +63,7 @@ export default function TicketPage({ history }) {
         <div className="container">
             <div>
                 <nav className="mb-4 navbar navbar-expand-lg navbar-dark bg-unique hm-gradient">
-                    <a href="/#" className="navbar-brand Company-Log">SA</a>
+                    <a href="/#" className="navbar-brand Company-Log">TripEase</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -83,7 +83,7 @@ export default function TicketPage({ history }) {
                 <article className="ticket">
                     <header className="ticket__wrapper">
                         <div className="ticket__header">
-                            1 🎟 SWADESHI AIRLINES
+                            1 🎟 TripEase
                         </div>
                     </header>
                     <div className="ticket__divider">

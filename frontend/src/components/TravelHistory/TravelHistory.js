@@ -122,15 +122,15 @@ export default class App extends React.Component {
             <div className='row' >
                 
                 <div className='columnThree' >
-                    <h3 > SWADESHI AIRLINES </h3>{' '}
+                    <h3 > TripEase </h3>{' '}
                     <div>
-                        <p> TRAVEL HISTORY DETAILS </p>{' '}
+                        <p> Travel History </p>{' '}
                         <div className='row' >
                             
                             
                                 <button style={{marginRight:40}}onClick={e => this.moveToupcomingpage(e)}
                                     className='btn btn-light btCustoms' >
-                                    Upcoming Flights {' '}
+                                    Upcoming Trips {' '}
                                 </button>{' '}
                                 &nbsp;&nbsp;
                                 <button style={{marginRight:40}} onClick={e => this.moveToCompletedpage(e)}
@@ -140,7 +140,7 @@ export default class App extends React.Component {
                                 &nbsp;&nbsp;
                                 <button style={{marginRight:40}} onClick={e => this.moveToCancelPage(e)}
                                     className='btn btn-light btCustoms' >
-                                    Cancelled Flights {' '}
+                                    Cancelled Trips {' '}
                                 </button>{' '}
 
                         </div>{' '}

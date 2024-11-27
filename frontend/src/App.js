@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Homepage from './components/Homepage/Homepage'
+import Homepage from './components/Homepage/Homepage';
 import RouteSelection from './components/RouteSelection/RouteSelection'
 import LogOrsign from './components/Login-Signup/LogOrsign'
 import Signup from './components/Login-Signup/Signup' 
